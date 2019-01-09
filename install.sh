@@ -80,3 +80,7 @@ sudo cp wallpaper/WD_3_WS_2560X1440.jpg /usr/share/backgrounds/bbu-w002.jpg
 (( STAGE++ ))
 stage_title $STAGE $TOTAL "Copying conky"
 sudo cp conky/BRAIN_JAR.png ~/.config/conky/blackbuntu.png 
+
+#(( STAGE++ ))
+#stage_title $STAGE $TOTAL "Copying GTK3"
+#/usr/share/themes/BlackBuntu/gtk-3/assets
