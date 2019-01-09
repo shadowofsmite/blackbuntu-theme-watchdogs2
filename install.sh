@@ -42,7 +42,7 @@ function set_banner
   echo -e "${TEXT_ERROR}                                                         ${TEXT_RESET}"
   echo -e "${TEXT_ERROR}                              Blackbuntu 18.04 CE 1.0.0  ${TEXT_RESET}"
   echo
-  echo -e "${TEXT_ENDED} [i] [Package]: blackbuntu-ce${TEXT_RESET}"
+  echo -e "${TEXT_ENDED} [i] [Package]: blackbuntu-ce theme watchdogs2${TEXT_RESET}"
   echo -e "${TEXT_ENDED} [i] [Website]: https://blackbuntu.org${TEXT_RESET}"
 
     echo
