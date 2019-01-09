@@ -49,6 +49,14 @@ function set_banner
     sleep 3s
 }
 
+## Return stage title
+## ------------------
+function stage_title
+{
+	echo -e "\n${TEXT_TITLE}[+]${TEXT_RESET} (${1}/${2}) ${TEXT_TITLE}${3^^}${TEXT_RESET}"
+	sleep 1s
+}
+
 ################
 ## ---------- ##
 ## START BASH ##
