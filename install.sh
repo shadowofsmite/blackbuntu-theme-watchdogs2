@@ -59,5 +59,16 @@ function set_banner
 ## --------------
 set_banner
 
+## Stage counter start
+## -------------------
+STAGE=0
+TOTAL=$(grep '(( STAGE++ ))' $0 | wc -l);(( TOTAL-- ))
+clear
+
+(( STAGE++ ))
+stage_title $STAGE $TOTAL "Copying backgrounds"
 sudo cp wallpaper/WD_3_WS_2560X1440.jpg /usr/share/backgrounds/bbu-w002.jpg 
+
+(( STAGE++ ))
+stage_title $STAGE $TOTAL "Copying conky"
 sudo cp conky/BRAIN_JAR.png ~/.config/conky/blackbuntu.png 
