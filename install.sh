@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# [Package]: blackbuntu-ce watchdogs2
+# [Package]: blackbuntu-ce theme watchdogs2
 # [Release]: Blackbuntu 18.04 CE 1.0.0
 # [Website]: https://blackbuntu.org
 # [Version]: CE 1.0.0
