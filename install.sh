@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-# [Package]: blackbuntu-ce theme watchdogs2
-# [Release]: Blackbuntu 18.04 CE 1.0.0
+# [Package]: blackbuntu-theme-watchdogs2
+# [Release]: Blackbuntu 18.04 Revive v1.0 Alpha
 # [Website]: https://blackbuntu.org
-# [Version]: CE 1.0.0
+# [Version]: Revive v1.0 Alpha
 # [License]: http://www.gnu.org/licenses/gpl-3.0.html
-#
+# 
 # Ascii Art : https://www.askapache.com/online-tools/figlet-ascii/
 
 #######################
@@ -32,21 +32,21 @@ TEXT_RESET="\033[00m"		# Normal
 ## --------------
 function set_banner
 {
-  clear
-  echo -e "${TEXT_ERROR}   _     _            _    _                 _           ${TEXT_RESET}"
-  echo -e "${TEXT_ERROR}  | |   | |          | |  | |               | |          ${TEXT_RESET}"
-  echo -e "${TEXT_ERROR}  | |__ | | __ _  ___| | _| |__  _   _ _ __ | |_ _   _   ${TEXT_RESET}"
-  echo -e "${TEXT_ERROR}  | '_ \| |/ _' |/ __| |/ / '_ \| | | | '_ \| __| | | |  ${TEXT_RESET}"
-  echo -e "${TEXT_ERROR}  | |_) | | (_| | (__|   <| |_) | |_| | | | | |_| |_| |  ${TEXT_RESET}"
-  echo -e "${TEXT_ERROR}  |_'__/|_|\__'_|\___|_|\_\_'__/ \__'_|_| |_|\__|\__'_|  ${TEXT_RESET}"
-  echo -e "${TEXT_ERROR}                                                         ${TEXT_RESET}"
-  echo -e "${TEXT_ERROR}                              Blackbuntu 18.04 CE 1.0.0  ${TEXT_RESET}"
-  echo
-  echo -e "${TEXT_ENDED} [i] [Package]: blackbuntu-ce theme watchdogs2${TEXT_RESET}"
-  echo -e "${TEXT_ENDED} [i] [Website]: https://blackbuntu.org${TEXT_RESET}"
+	clear
+	echo -e "${TEXT_ERROR}   _     _            _    _                 _           ${TEXT_RESET}"
+	echo -e "${TEXT_ERROR}  | |   | |          | |  | |               | |          ${TEXT_RESET}"
+	echo -e "${TEXT_ERROR}  | |__ | | __ _  ___| | _| |__  _   _ _ __ | |_ _   _   ${TEXT_RESET}"
+	echo -e "${TEXT_ERROR}  | '_ \| |/ _' |/ __| |/ / '_ \| | | | '_ \| __| | | |  ${TEXT_RESET}"
+	echo -e "${TEXT_ERROR}  | |_) | | (_| | (__|   <| |_) | |_| | | | | |_| |_| |  ${TEXT_RESET}"
+	echo -e "${TEXT_ERROR}  |_'__/|_|\__'_|\___|_|\_\_'__/ \__'_|_| |_|\__|\__'_|  ${TEXT_RESET}"
+	echo -e "${TEXT_ERROR}                                                         ${TEXT_RESET}"
+	echo -e "${TEXT_ERROR}                     Blackbuntu 18.04 Revive v1.0 Alpha  ${TEXT_RESET}"         
+	echo
+	echo -e "${TEXT_ENDED} [i] [Package]: blackbuntu-theme-watchdogs2${TEXT_RESET}"
+	echo -e "${TEXT_ENDED} [i] [Website]: https://blackbuntu.org${TEXT_RESET}"
 
-    echo
-    sleep 3s
+  	echo
+  	sleep 3s
 }
 
 ## Return stage title
