@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# [Package]: blackbuntu-ce
+# [Package]: blackbuntu-ce watchdogs2
 # [Release]: Blackbuntu 18.04 CE 1.0.0
 # [Website]: https://blackbuntu.org
 # [Version]: CE 1.0.0
@@ -60,3 +60,4 @@ function set_banner
 set_banner
 
 sudo cp wallpaper/WD_3_WS_2560X1440.jpg /usr/share/backgrounds/bbu-w002.jpg 
+sudo cp conky/BRAIN_JAR.png ~/.config/conky/blackbuntu.png 
