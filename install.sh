@@ -84,3 +84,9 @@ sudo cp conky/BRAIN_JAR.png ~/.config/conky/blackbuntu.png
 #(( STAGE++ ))
 #stage_title $STAGE $TOTAL "Copying GTK3"
 #/usr/share/themes/BlackBuntu/gtk-3/assets
+sudo cp gtk/SKULL_FACE_02-40x40.png /usr/share/themes/BlackBuntu/gtk-3.0/assets/logo.png
+sudo cp gtk/SKULL_FACE_02-75x75.png /usr/share/themes/BlackBuntu/gtk-3.0/assets/logo@2.png
+sudo cp gtk/LOGO_DEDSEC_01.png /usr/share/themes/BlackBuntu/gtk-3.0/assets/backimage.png
+sudo cp gtk/LOGO_DEDSEC_01@2.png /usr/share/themes/BlackBuntu/gtk-3.0/assets/backimage@2.png
+sudo cp gtk/LOGO_DEDSEC_01_black.png /usr/share/themes/BlackBuntu/gtk-3.0/assets/backimage-dark.png
+sudo cp gtk/LOGO_DEDSEC_01_black@2.png /usr/share/themes/BlackBuntu/gtk-3.0/assets/backimage-dark@à2.png
